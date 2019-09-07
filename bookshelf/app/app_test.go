@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/GoogleCloudPlatform/golang-samples/getting-started/bookshelf"
-	"github.com/GoogleCloudPlatform/golang-samples/internal/testutil"
-	"github.com/GoogleCloudPlatform/golang-samples/internal/webtest"
+	"github.com/tintinnabulate/testable-google-datastore/bookshelf"
+	"github.com/tintinnabulate/testable-google-datastore/internal/testutil"
+	"github.com/tintinnabulate/testable-google-datastore/internal/webtest"
 )
 
 var wt *webtest.W

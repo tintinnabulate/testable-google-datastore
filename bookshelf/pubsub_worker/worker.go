@@ -30,7 +30,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 
-	"github.com/GoogleCloudPlatform/golang-samples/getting-started/bookshelf"
+	"github.com/tintinnabulate/testable-google-datastore/bookshelf"
 )
 
 const subName = "book-worker-sub"

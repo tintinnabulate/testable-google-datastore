@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-ARG pkg=github.com/GoogleCloudPlatform/golang-samples/getting-started/bookshelf
+ARG pkg=github.com/tintinnabulate/testable-google-datastore/bookshelf
 
 RUN apk add --no-cache ca-certificates
 

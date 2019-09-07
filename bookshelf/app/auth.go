@@ -25,8 +25,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/GoogleCloudPlatform/golang-samples/getting-started/bookshelf"
 	uuid "github.com/gofrs/uuid"
+	"github.com/tintinnabulate/testable-google-datastore/bookshelf"
 )
 
 const (
