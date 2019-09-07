@@ -90,7 +90,7 @@ func testContext() (Context, error) {
 
 	pkg, err := build.Import("github.com/tintinnabulate/testable-google-datastore", "", build.FindOnly)
 	if err != nil {
-		return tc, fmt.Errorf("Could not find golang-samples on GOPATH: %v", err)
+		return tc, fmt.Errorf("Could not find testable-google-datastore on GOPATH: %v", err)
 	}
 	tc.Dir = pkg.Dir
 
